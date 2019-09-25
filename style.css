@@ -25,6 +25,7 @@ img {
     text-align: center;
 }
 table {
+    margin: 0 auto; 
     border: solid 1px black; 
     padding: 10px; 
 }
@@ -41,4 +42,19 @@ form label ,  input{
 }
 button:hover {
     background: gray; 
+    border: none; 
+}
+@media (max-width: 470px) {
+    ul {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width:450px){
+    img {
+        border-radius: 80px;
+    }
+
 }
