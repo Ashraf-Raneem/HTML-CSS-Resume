@@ -3,81 +3,124 @@
 <html>
   <head>
     <title>Page Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  
+   <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>Ashraful Hassan</h1>
-
-    <h2>Junior Web developer</h2>
-
-    <img src="img/53347628_2294174443966616_709435679976718336_n.jpg" />
-
-    <div id="main" class="container">
-      <p>Currently a 3rd year Student at a well known bangladesh University</p>
-
-      <br />
-      <h3>Here are the things that I have experiance with</h3>
-      <ul>
-        <li>C#</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>React.js</li>
-        <li>Bootstrap</li>
-      </ul>
-
-      <h2>Personal Information</h3>
-      <h3>Education</h4>
-
-      <table>
-        <tr>
-          <th>
-            Qualification
-          </th>
-          <th>
-            Year
-          </th>
-          <th>
-            School
-          </th>
-        </tr>
-        <tr>
-          <td>O level</td>
-          <td>2014</td>
-          <td>Mastermind</td>
-        </tr>
-
-        <tr>
-          <td>A level</td>
-          <td>2016</td>
-          <td>Mastermind</td>
-        </tr>
-        <tr>
-          <td>Bachelors</td>
-          <td>2016</td>
-          <td>Independent University,Bangladesh</td>
-        </tr>
-      </table>
-
-      <h2>Contact Form</h2>
-
-      <form>
-        <label>Name</label>
-        <input type="text" />
-        <br />
-        <label>Purpose</label>
-        <input type="text" />
-        <br />
-        <label>Message/request</label>
-        <input type="text" />
+    <div class="container">
+      <div class="head">
+        <h1>Ashraful Hassan</h1>
         <br>
-        <button>Submit</button>
-      </form>
-      <footer>
-        <p>Click <a href="https://github.com/Ashraf-Raneem">here</a> to know me further </p>
-      </footer>
+        <h4>Front-end Developer</h4>  
+      </div>
+      <img src="img/53347628_2294174443966616_709435679976718336_n.jpg">
+      
+      <div class="row">
+        <div class="col-md-7 col-sm-7" >
+            <h2>About <span id="me">Me</span></h2>
+          <p>Hello, I'm Ashraf, I am a front-end web developer from Bangladesh. Currently I am studying
+            in bachelors of Computer Science from a reputed University here. Besides I am a Freelancer developing
+            the front-end portion of your desired website. 
+          </p>
+          <button class="btn btn-success btn-lg">Download Resume</button>
+        </div>
+        <div class="col-md-5 col-sm-5">
+          <h3>Personal Information</h3>
+          <ul>
+            <li><span class="info">Age</span>: 22</li>
+            <li><span class="info">Residence</span>:      Bangladesh</li>
+            <li><span class="info">Address</span>:        Uttara, Dhaka</li>
+            <li><span class="info">E-mail</span> <a href="">:     Ashrafraneem@gmail.com</a></li>
+            <li><span class="info">Phone</span>:       +88001732710968</li>
+            <li><span class="info">Freelance</span>:      Available</li>
+          </ul>
+        </div> 
+      </div>
+
+      <section>
+        <div class="section-1">
+          <blockquote>&ldquo; Develop a passion for learning. If you do, 
+            you will never cease to grow &rdquo;</blockquote>
+            <cite> &mdash; Anthony J. D'Angelo </cite>
+        </div>
+      </section>
+      <section>
+        <div class="table">
+          <h2>Education</h2>
+          <table class="table table-bordered table-striped">
+            <tr class="success">
+              <th>Degrees</th>
+              <th>Institution</th>
+              <th>Year</th>
+            </tr>
+            <tr>
+              <td>O'Level</td>
+              <td>Mastermind</td>
+              <td>2014</td>
+            </tr>
+            <tr>
+                <td>A'Level</td>
+                <td>Mastermind</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                  <td>Bachelors</td>
+                  <td>Independent University, Bangladesh</td>
+                  <td>2016-</td>
+                </tr>
+          </table>
+        </div>
+      </section>
+
+     
+        <div class="row">
+          <div class="col-md-7">
+          <h2>Experianced On</h2> 
+          <ol>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>PhP</li>
+            <li>Mysql</li>
+            <li>JavaScript</li>
+            <li>React js</li>
+          </ol>
+        </div>
+          
+     
+      <div class="col-md-5">
+        <div class="section-2">
+          <h2>Message Me</h2>
+          <form>
+            <div class="form-group">
+              <label>Name </label>
+              <input class="form-control" type="text">
+              <label>Email</label>
+              <input class="form-control" type="email">
+              <textarea placeholder="Type a Message Here ....." class="form-control"></textarea>
+              <button class="btn btn-warning btn-lg"> Submit</button>
+            </div>
+          </form>
+        </div>
+        </div>
+        </div>
+     <footer>
+       From Bangladesh with love &hearts;
+     </footer>
     </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
